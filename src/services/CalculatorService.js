@@ -120,8 +120,6 @@ class CalculatorService {
         let number1 = Number.parseInt(operand1, base);
         let number2 = Number.parseInt(operand2, base);
 
-        console.log("number1 = " + number1 + " number2 = " + number1 + " operator = " + operator)
-
         switch (operator) {
             case "+": return (number1 + number2);
             case "-": return (number1 - number2);
